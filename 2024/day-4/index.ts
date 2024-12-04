@@ -57,7 +57,7 @@ function LookForA(i: number, j: number): number {
 }
 
 function LookForS(i: number, j: number): number {
-  if ((data?.[i]?.[j] ?? null) === "A") {
+  if ((data?.[i]?.[j] ?? null) === "S") {
     console.log(i, j);
 
     return 1;
